@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width:100%;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar h1{
+    padding: 20,30;
+}
+
+.Link{
+    display: flex;
+    gap:20px;
+    color:white;
+    text-decoration: none;
+    align-items: center;
+}
+
+.input{
+    margin-top: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    width: 300px;
+}
+.input button{
+    background-color: black;
+    color: white;
+}
